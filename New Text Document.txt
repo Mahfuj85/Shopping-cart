@@ -1,0 +1,7 @@
+1. Change most of the information including photos, contents.
+2. Onclick + / - the input value (quantity) will increase / decrease respectively.
+3. Product price will increase/ decrease according to the quantity.
+4. Addition of two product prices will provide a Subtotal.
+5. 10% Tax to be determined from subtotal. Subtotal + Tax will provide Total price of the prodcuts.
+6. README.md file will provide project description with live link.
+7. Project should be pushed in GitHub regularly using CLI (command Line Interface) + more than 5 commits mandatory.
