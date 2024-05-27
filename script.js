@@ -24,10 +24,11 @@ function increment(incDec,prc,item){
 
     //tax amount
     let taxTotal = parseInt(subTotal.innerHTML) * 0.1;
-    taxAmount.innerHTML = taxTotal;
+    let newTaxTotal = +taxTotal.toFixed(3);
+    taxAmount.innerHTML = newTaxTotal;
 
     //total price
-    let total = subTotalResult + taxTotal;
+    let total = subTotalResult + newTaxTotal;
     totalPrice.innerHTML = total;
   }
 }
@@ -58,10 +59,11 @@ function decrement(incDec,prc,item){
 
     //tax amount
     let taxTotal = parseInt(subTotal.innerHTML) * 0.1;
-    taxAmount.innerHTML = taxTotal;
+    let newTaxTotal = +taxTotal.toFixed(3);
+    taxAmount.innerHTML = newTaxTotal;
 
     //total price
-    let total = subTotalResult + taxTotal;
+    let total = subTotalResult + newTaxTotal;
     totalPrice.innerHTML = total;
     }
 }
